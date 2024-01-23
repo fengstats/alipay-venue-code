@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>杭州市扫码通行</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="top-bar">
+        <div class="l-text">杭州市扫码通行</div>
+        <img class="r-options" src="./images/3.png" alt="" />
+      </div>
+      <div class="content">
+        <!-- 顶部绿色的背景块 -->
+        <div class="bg-green"></div>
+        <!-- 显示动态时间 / 姓名 / 场所 / 健康码 / 疫苗接种情况  -->
+        <div class="block-public block-main">
+          <div class="m-time">
+            <div class="time-date"></div>
+            <div class="time-hour"></div>
+          </div>
+          <div class="m-code">
+            <img class="c-zhang" src="./images/2.png"></img>
+            <div class="c-name">
+              <span class="name-text">陈*民</span>
+              <span class="name-options">显示</span>
+            </div>
+            <div class="c-content">
+              <div class="c-area">XXX 地区</div>
+              <img class="c-code" src="./images/1.png"></img>
+              <div class="c-area">杭州健康码</div>
+              <div class="c-desc">已完成新冠疫苗接种</div>
+            </div>
+          </div>
+        </div>
+        <!-- 核酸,重点地区14天内核验 -->
+        <div class="block-public block-hesuan">
+          <img class="hesuan-img" src="./images/4.png" />
+          <div class="hesuan-line"></div>
+          <div class="hesuan-area">
+            <div class="area-title">疫情重点地区检验</div>
+            <div class="area-desc">14天内疫情重点地区记录</div>
+            <div class="area-btn">立即查看</div>
+          </div>
+        </div>
+        <!-- 行程卡 -->
+        <div class="block-public block-record">
+          <div class="record-title">
+            <div class="title-img">
+              <img src="./images/5.png" />
+              <span>行程卡</span> 
+            </div>
+            <div class="title-desc">查看14天是否到过中高风险地区</div>
+          </div>
+          <div class="record-btn">详情</div>
+        </div>
+      </div>
+      <!-- 页脚信息 -->
+      <div class="bottom-footer">
+        <img class="f-img" src="./images/6.png"></img>
+        <div class="f-text">依托全国一体化建设服务平台</div>
+        <div class="f-text">开展跨省（区、市）数据共享和互通互认</div>
+        <div class="f-desc">服务热线：0571-12345-6</div>
+        <div class="f-desc">本服务由杭州市人民建设提供</div>
+        <div class="f-desc" style="font-weight: normal;font-size: 14px;">Copyright@杭州市人民建设版权所有</div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
